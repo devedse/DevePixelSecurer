@@ -21,12 +21,12 @@ namespace DevePixelSecurer.ConsoleApp
             for (int i = 0; i < 256; i++)
             {
                 var inputColor = Color.FromArgb(i, i, i);
-                var withIdentifier = pixelSecurer.ConvertToIdentifierPixel(inputColor);
+                var withIdentifier = pixelSecurer.ToSecuredPixel(inputColor);
 
                 withIdentifier.ValuePixel = Color.FromArgb(withIdentifier.ValuePixel.R + brokenModifier, withIdentifier.ValuePixel.G + brokenModifier, withIdentifier.ValuePixel.B + brokenModifier);
                 withIdentifier.IdentifierPixel = Color.FromArgb(withIdentifier.IdentifierPixel.R + brokenModifier, withIdentifier.IdentifierPixel.G + brokenModifier, withIdentifier.IdentifierPixel.B + brokenModifier);
 
-                var outputColor = pixelSecurer.ConvertToActualPixel(withIdentifier);
+                var outputColor = pixelSecurer.FromSecuredPixel(withIdentifier);
 
                 var theSame = inputColor == outputColor;
 

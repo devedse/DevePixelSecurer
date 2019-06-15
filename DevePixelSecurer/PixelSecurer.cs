@@ -11,7 +11,7 @@ namespace DevePixelSecurer
             ParityFactor = parityFactor;
         }
 
-        public Color ConvertToActualPixel(SecuredPixel securedPixel)
+        public Color FromSecuredPixel(SecuredPixel securedPixel)
         {
             var red = FromSecuredValue(securedPixel.IdentifierPixel.R, securedPixel.ValuePixel.R);
             var green = FromSecuredValue(securedPixel.IdentifierPixel.G, securedPixel.ValuePixel.G);
@@ -20,11 +20,11 @@ namespace DevePixelSecurer
             return Color.FromArgb(red, green, blue);
         }
 
-        public SecuredPixel ConvertToIdentifierPixel(Color inputColor)
+        public SecuredPixel ToSecuredPixel(Color inputPixel)
         {
-            var red = ToIdentifierValue(inputColor.R);
-            var green = ToIdentifierValue(inputColor.G);
-            var blue = ToIdentifierValue(inputColor.B);
+            var red = ToSecuredValue(inputPixel.R);
+            var green = ToSecuredValue(inputPixel.G);
+            var blue = ToSecuredValue(inputPixel.B);
 
             var resultColor = Color.FromArgb(red.value, green.value, blue.value);
             var identifierColor = Color.FromArgb(red.identifier, green.identifier, blue.identifier);
@@ -36,7 +36,7 @@ namespace DevePixelSecurer
             };
         }
 
-        private (int identifier, int value) ToIdentifierValue(int input)
+        private (int identifier, int value) ToSecuredValue(int input)
         {
             int tot = input * ParityFactor + (ParityFactor / 2);
 
