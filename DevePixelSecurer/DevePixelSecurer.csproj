@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>DevePixelSecurer</AssemblyName>
+    <PackageId>DevePixelSecurer</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <Version>1.0.0.0</Version>
+    <Title>DevePixelSecurer</Title>
+    <Authors>Devedse</Authors>
+    <Description>The goal of this project is to be able to save the state of a code line and skip it if it already knows the result.</Description>
+    <PackageProjectUrl>https://github.com/devedse/DevePixelSecurer</PackageProjectUrl>
+    <PackageTags>csharp;save;code;state;parity</PackageTags>
+    <DebugType>full</DebugType>
   </PropertyGroup>
 
 </Project>
