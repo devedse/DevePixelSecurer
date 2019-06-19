@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevePixelSecurer", "DevePixelSecurer\DevePixelSecurer.csproj", "{2A00D45A-FC65-4280-BB7E-FCAE5C8966E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevePixelSecurer", "DevePixelSecurer\DevePixelSecurer.csproj", "{2A00D45A-FC65-4280-BB7E-FCAE5C8966E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevePixelSecurer.ConsoleApp", "DevePixelSecurer.ConsoleApp\DevePixelSecurer.ConsoleApp.csproj", "{F3DA22E9-83AB-45F5-BD9A-5F8BAC77229C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevePixelSecurer.ConsoleApp", "DevePixelSecurer.ConsoleApp\DevePixelSecurer.ConsoleApp.csproj", "{F3DA22E9-83AB-45F5-BD9A-5F8BAC77229C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevePixelSecurer.Tests", "DevePixelSecurer.Tests\DevePixelSecurer.Tests.csproj", "{8FE8625E-2A6F-4025-B79D-A0C32F417689}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevePixelSecurer.Tests", "DevePixelSecurer.Tests\DevePixelSecurer.Tests.csproj", "{8FE8625E-2A6F-4025-B79D-A0C32F417689}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
