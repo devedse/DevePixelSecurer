@@ -5,7 +5,7 @@ The goal of this project is to be able to save the state of a code line and skip
 
 | Travis (Linux/Osx build) | AppVeyor (Windows build) |
 |:------------------------:|:------------------------:|
-| [![Build Status](https://travis-ci.org/devedse/DevePixelSecurer.svg?branch=master)](https://travis-ci.org/devedse/DevePixelSecurer) | [![Build status](https://ci.appveyor.com/api/projects/status/datwgk9gb4gmpodi?svg=true)](https://ci.appveyor.com/project/devedse/devepixelsecurer) |
+| [![Build Status](https://travis-ci.org/devedse/DevePixelSecurer.svg?branch=master)](https://travis-ci.org/devedse/DevePixelSecurer) | [![Build status](https://ci.appveyor.com/api/projects/status/bk2o0hmlkei3lcfx?svg=true)](https://ci.appveyor.com/project/devedse/devepixelsecurer) |
 
 ## Code Coverage Status
 
